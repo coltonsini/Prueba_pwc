@@ -1,0 +1,1295 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Phone and Small devices */
+
+/* Estilos Sección Nav */
+    /* Estilos Sección Nav */
+    .menu{
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        padding: 1rem;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid white;
+        box-shadow: 5px 0 10px rgb(158, 158, 158);
+    }
+    
+    
+    .imagen_menu{
+        width: 4em;
+    }
+    
+    .menu_items {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-right: 30px;
+    }
+    
+    .menu_items li{
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+    
+    .menu_items li a{
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: .75rem;
+        font-weight: 500;
+        display: block;
+        text-transform: uppercase;
+        color: rgba(30, 30, 30, 1);
+    }
+    
+    .menu_items li:hover, li:active{
+        text-decoration: underline;
+        transition: .4s ease;
+        font-weight: 700;
+    }
+    
+    .btn_menu{
+        width: 3rem;
+        cursor: pointer;
+        display: none;
+    }
+    
+    ul.show{
+        top: 85px;
+    }
+    
+   /* Fin Sección Nav */
+
+/* Inicio Sección auditoria */
+
+.auditoria{
+
+}
+
+.audiotoria_arriba{
+    padding: 4rem 1rem 4rem 1rem;
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+    gap: 2rem;
+    width: 100%;
+    background-image: url("/img/Servicios_integrales/img-header-web.webp");
+}
+
+.auditoria_abajo{
+    width: 100%;
+    padding: 4rem 1rem 4rem 1rem;
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FFB600;
+}
+
+.audiotoria_arriba h1{
+    color: white;
+    font-weight: 500;
+}
+
+.audiotoria_arriba p{
+    color: white;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.auditoria_abajo h2{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.auditoria_abajo img{
+    display: none;
+}
+
+.auditoria_abajo p:nth-child(2){
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.contenedor_form{
+    width: 100%;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 5% 2% 5% 2%;
+}
+
+
+
+   /* Estilos Sección soluciones */
+
+.soluciones_section{
+    padding: 4rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenido_soluciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.soluciones_section h2{
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.6rem;
+}
+
+.contenedor_soluciones{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: start;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.titulo_soluciones{
+    font-weight: 500;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.texto_soluciones{
+    font-weight: 400;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.boton_soluciones{
+    background-color: #535353;
+    width: 60%;
+    padding: .9rem 0rem .9rem;
+    border: none;
+    color: white;
+}
+
+.boton_soluciones:hover{
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+    background-color: white;
+    color: #535353;
+    border: 1px solid #535353;
+}
+
+.imagenes_soluciones{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Fin Sección soluciones */
+
+/* Estilos Sección Conocimientos */
+
+.conocimientos_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FFB600;
+}
+
+.conocimientos_section h2{
+    font-weight: 400;
+}
+
+.contenido_arribaconocimiento{
+    width: 90%;
+}
+
+.conocimientos{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contenedor_conocimientos{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: fit-content;
+    border: none;
+}
+
+.contenedor_conocimientos hr{
+    width: 25%;
+    background-color: #D04A02;
+    height: .4rem;
+    border: none;
+}
+
+.contenedor_conocimientos p{
+    font-size: 1.1rem;
+}
+
+.texto_conocimientos{
+    font-size: .8rem;
+    line-height: 1.3rem;
+}
+
+
+/* Fin Sección Conocimientos */
+
+/* Estilos Herramientas */
+
+.herramientas_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.texto_herramientas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+}
+
+.texto_herramientas p:nth-child(even) {
+    color: #D04A02;
+}
+
+.texto_herramientas p:nth-child(n + 3) {
+    font-size: .9rem;
+}
+
+.boton_herramientas {
+    display: none;
+}
+
+.boton_herramientas2 {
+    background-color: #535353;
+    width: 60%;
+    padding: .9rem 0rem .9rem;
+    border: none;
+    color: white;
+}
+
+.boton_herramientas2:hover{
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+    background-color: white;
+    color: #535353;
+    border: 1px solid #535353;
+}
+
+.contenedor_herramientas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+}
+
+.texto_pequeño{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.texto_pequeño p:nth-child(1) {
+    color: #D04A02;
+}
+
+.texto_pequeño p:nth-child(2) {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.iconos_herramientas{
+    width: 11%;
+    height: fit-content;
+    fill: #D04A02;
+}
+
+.herramientas{
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+}
+
+/* Fin Sección Herramientas */
+
+/* Estilos Valor Section */
+
+.valor_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #DDDDDD;
+}
+
+.valor_section h2{
+    font-weight: 500;
+    width: 90%;
+}
+
+.valor_section p:nth-child(2){
+    width: 90%;
+}
+
+.iconos_valor{
+    width: 13%;
+    object-fit: cover;
+    fill: #EB8C00;
+}
+
+.contenedor_itemsvalor{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.texto_valor p:nth-child(1) {
+    font-weight: 500;
+}
+
+.texto_valor p:nth-child(2) {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.contenedor_valor{
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.texto_valor{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Fin Sección Valor */
+
+/* Noticias Sección */
+
+.Pwc_insights_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.todas_noticias{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+.texto_noticias{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.texto_noticias h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.texto_noticias p{
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.3rem;
+}    
+
+.contenedor_noticias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imagenes_insights{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.categoria_noticias{
+    display: flex;
+    gap: 10%;
+}
+
+.noticias_boton{
+    width: 30%;
+    padding: .6rem 0rem .6rem;
+    background-color: white;
+    color: #535353;
+    border: 1px solid #535353;
+    font-weight: 700;
+}
+
+.noticias_boton:hover{
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    background-color: #535353;
+    color: white;
+    border: 1px solid white;
+    font-weight: 700;
+}
+
+/* Fin Sección Noticias */
+
+/* Estilos Brochure sección */
+
+.Brochure_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #D04A02;
+}
+
+.contenedor_brochure{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.contenedor_brochure h2{
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor_brochure hr{
+    width: 13%;
+    border: none;
+    height: .4em;
+    background-color: white;
+}
+
+.contenedor_brochure p{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.boton_brochure {
+    background-color: #535353;
+    width: 60%;
+    padding: .9rem 0rem .9rem;
+    border: none;
+    color: white;
+}
+
+.boton_brochure:hover{
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+    background-color: white;
+    color: #535353;
+    border: 1px solid #535353;
+}
+
+/* Fin Sección Brochure */
+
+/* Estilos Equipo sección */
+
+.equipo_section {
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FFB600;
+}
+
+.equipo_section h2{
+    font-weight: 500;
+}
+
+.contenedor_equipo{
+    width: 100%;
+}
+
+.contenedor_miembros{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.contenedor_equipo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contenedor_imagenequipo{
+    width: 25%;
+    height: fit-content;
+}
+
+.icono_equipo{
+    width: 1.5rem;
+}
+
+.informacion_superior{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.texto_equipo{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.texto_equipo h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.texto_equipo p{
+    font-size: .8rem;
+}
+
+.informacion_inferior{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion_inferior p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.informacion_inferior a{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: black;
+    width: fit-content;
+}
+
+.informacion_inferior a:hover{
+    font-weight: 600;
+    color: #535353;
+}
+
+/* Fin Sección Equipo */
+
+/* Estilos redes sección */
+
+.redes_section{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #D04A02;
+}
+
+.redes{
+    display: flex;
+    gap: 1rem;
+}
+
+.redes_section p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contenedor_redes{
+    background-color: #535353;
+    padding: .7rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.iconos_redes{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+/* Fin Sección redes */
+
+/*  Sección Footer */
+
+footer{
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #535353;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.Links_footer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Links_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.Links_footer a:hover{
+    text-decoration: underline;
+}
+
+.Links_footer2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Links_footer2 a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.footer_inferior{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+
+.footer_inferior p{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.Links_footer2 a:hover{
+    text-decoration: underline;
+}
+
+/* Fin Sección footer */
+
+@media screen and (max-width: 952px){
+    .menu_items li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 858px){
+    .menu{
+        height: 85px;
+        padding-left: 0;
+    }
+    .btn_menu{
+        display: flex;
+    }
+    .menu_items{
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 85px);
+        background: #535353;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu_items li{
+        width: 100%;
+        text-align: left;
+        margin: px 0 0 0;
+        line-height: 30px;
+    }
+    .menu_items li:active{
+        background: #858585;
+    }
+    .menu_items li:hover{
+        background: #D04A02;
+        text-decoration: none;
+
+    }
+    .menu_items li a{
+        font-size: .8rem;
+        color: #fff;
+        font-weight: regular;
+        text-transform: capitalize;
+
+    }
+    .menu_items li a:hover{
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .imagen_menu{
+        padding-left: 1rem;
+    }
+
+    .boton_brochure {
+        
+    }
+
+    .menu_items div{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .signin{
+        width: 45%;
+        padding: .9rem 0rem .9rem;
+        color: white;
+        background-color: #535353;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    .Register{
+        background-color: #D04A02;
+        width: 45%;
+        padding: .9rem 0rem .9rem;
+        border: none;
+        color: white;
+    }
+
+    .signin:hover{
+        -webkit-transition-duration: 700ms;
+        -moz-transition-duration: 700ms;
+        -o-transition-duration: 700ms;
+        transition-duration: 700ms;
+        background-color: #D04A02;
+        color: #ffffff;
+        border: none;
+    }
+
+    .Register:hover{
+        -webkit-transition-duration: 700ms;
+        -moz-transition-duration: 700ms;
+        -o-transition-duration: 700ms;
+        transition-duration: 700ms;
+        background-color: white;
+        color: #535353;
+        border: 1px solid #535353;
+    }
+
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape){
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items{
+        overflow: scroll;
+        height: calc(100% - 85px);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    
+
+   /* Fin Sección Nav */
+
+   /* Estilos Sección soluciones */
+
+    .soluciones_section{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido_soluciones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        align-self: stretch;
+    }
+
+    .soluciones_section h2{
+        width: 100%;
+    }
+   
+    .contenedor_soluciones{
+        background-color: #535353;
+        gap: 1.2rem;
+        align-items: center;
+        width: 24%;
+        align-self: stretch;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+    }
+
+    .titulo_soluciones{
+        width: 90%;
+        color: white;
+    }
+
+    .texto_soluciones{
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        width: 90%;
+        color: white;
+    }
+
+    .boton_soluciones{
+        background-color: #818181;
+        width: 90%;
+    }
+
+    .boton_soluciones:hover{
+
+    }
+
+    .imagenes_soluciones{
+
+    }
+
+
+   /* Fin Sección soluciones */
+
+   /* Estilos Sección Conocimientos */
+
+    .conocimientos_section{
+        padding: 5rem 1rem 5rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .conocimientos_section h2{
+        font-weight: 400;
+    }
+
+    .contenido_arribaconocimiento{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+   
+    .conocimientos{
+        width: 90%;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .contenedor_conocimientos{
+        width: 70%;
+    }
+
+    .contenedor_conocimientos hr{
+    }
+
+    .contenedor_conocimientos p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .texto_conocimientos{
+        font-size: .85rem;
+    }
+
+
+   /* Fin Sección Conocimientos */
+   
+   /* Estilos Herramientas */
+
+    .herramientas_section{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .herramientas_section h2{
+        font-weight: 500;
+    }
+
+    .texto_herramientas{
+        gap: 3rem;
+        width: 90%;
+    }
+
+    .texto_herramientas p:nth-child(even) {
+    }
+
+    .texto_herramientas p:nth-child(n + 3) {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+
+    .boton_herramientas {
+        display: flex;
+        background-color: #535353;
+        justify-content: center;
+        width: 60%;
+        padding: .8rem 0rem .8rem 0rem;
+        border: none;
+        color: white;
+    }
+
+    .boton_herramientas2 {
+        display: none;
+    }
+
+    .boton_herramientas:hover{
+        -webkit-transition-duration: 700ms;
+        -moz-transition-duration: 700ms;
+        -o-transition-duration: 700ms;
+        transition-duration: 700ms;
+        background-color: white;
+        color: #535353;
+        border: 1px solid #535353;
+    }
+
+    .contenedor_herramientas{
+    }
+
+    .texto_pequeño{
+    }
+
+    .texto_pequeño p:nth-child(1) {
+    }
+
+    .texto_pequeño p:nth-child(2) {
+    }
+
+    .iconos_herramientas{
+        width: 13%;
+    }
+
+    .herramientas{
+    }
+
+   /* Fin Sección Herramientas */
+
+   /* Estilos Valor Section */
+
+    .valor_section{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: #DDDDDD;
+    }
+
+    .valor_section h2{
+        font-weight: 500;
+        width: 90%;
+    }
+
+    .valor_section p:nth-child(2){
+        width: 90%;
+    }
+
+    .iconos_valor{
+        width: 8%;
+    }
+
+    .contenedor_itemsvalor{
+        width: 90%;
+    }
+
+    .texto_valor p:nth-child(1) {
+        font-weight: 500;
+    }
+
+    .texto_valor p:nth-child(2) {
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+    .contenedor_valor{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .texto_valor{
+        width: 85%;
+    }
+
+    /* Fin Sección Valor */
+
+    /* Noticias Sección */
+
+    .Pwc_insights_section{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        align-items: start;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .todas_noticias{
+        width: 100%;
+        flex-direction: row;
+        gap: 1rem;
+        align-self: stretch;
+        overflow: hidden;
+    }
+    
+    .texto_noticias{
+    }
+
+    .texto_noticias h3{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .texto_noticias p{
+        font-size: .7rem;
+        line-height: 1.3rem;
+    }    
+
+    .contenedor_noticias{
+        justify-content: space-between;
+    }
+
+    .imagenes_insights{
+        width: 100%;
+        height: 8rem;
+        object-fit: cover;
+    }
+
+    .categoria_noticias{
+        display: flex;
+        gap: 10%;
+    }
+
+    .noticias_boton{
+        width: 40%;
+    }
+
+    .noticias_boton:hover{
+
+    }
+
+    /* Fin Sección Noticias */
+
+    /* Estilos Brochure sección */
+
+    .Brochure_section{
+        flex-direction: row;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .contenedor_brochure{
+        width: 45%;
+    }
+
+    .contenedor_brochure h2{
+        font-size: 1.3rem;
+    }
+
+    .contenedor_brochure hr{
+    }
+
+    .contenedor_brochure p{
+        font-size: 1rem;
+    }
+
+    .boton_brochure {
+    }
+
+    .boton_brochure:hover{
+    }
+
+    /* Fin Sección Brochure */
+
+    /* Estilos Equipo sección */
+
+    .equipo_section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .equipo_section h2{
+        font-weight: 500;
+    }
+
+    .contenedor_equipo{
+        width: 45%;
+    }
+
+    .contenedor_equipo{
+        gap: 1rem;
+    }
+
+    .contenedor_miembros{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .contenedor_imagenequipo{
+    }
+
+    .icono_equipo{
+    }
+
+    .informacion_superior{
+    }
+
+    .texto_equipo{
+    }
+
+    .texto_equipo h3{
+    }
+
+    .texto_equipo p{
+    }
+
+    .informacion_inferior{
+    }
+
+    .informacion_inferior p{
+    }
+
+    .informacion_inferior a{
+    }
+
+    .informacion_inferior a:hover{
+    }
+
+    /* Fin Sección Equipo */
+
+    /* Estilos redes sección */
+
+    .redes_section{
+        gap: 1.5rem;
+    }
+
+    .redes{
+    }
+
+    .redes_section p{
+    }
+
+    .contenedor_redes{
+        background-color: #535353;
+        padding: .7rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .iconos_redes{
+        width: 1rem;
+        height: 1rem;
+    }
+
+
+    /* Fin Sección redes */
+
+    /* Sección foooter */
+
+    footer{
+    }
+    
+    footer a{
+    }
+    
+    footer a:hover{
+    }
+    
+    .Links_footer{
+    }
+    
+    .Links_footer a{
+    }
+    
+    .Links_footer a:hover{
+    }
+    
+    .Links_footer2{
+        flex-direction: row;
+    }
+    
+    .Links_footer2 a{
+    }
+    
+    .footer_inferior{
+    }
+    
+    .footer_inferior p{
+    }
+    
+    .Links_footer2 a:hover{
+    }
+    
+    /* Fin Sección footer */
+}
