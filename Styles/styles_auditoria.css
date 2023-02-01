@@ -1018,6 +1018,7 @@ footer a:hover{
     }
 
     .contenedor_arriba{
+        margin-left: 5%;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -1025,11 +1026,13 @@ footer a:hover{
     }
 
     .contenedor_abajo{
+        margin-left: 5%;
         width: 35%;
         display: flex;
         object-fit: contain;
         flex-direction: column;
         gap: 2rem;
+        padding-bottom: 5%;
     }
 
     .auditoria_abajo{
@@ -1049,7 +1052,7 @@ footer a:hover{
 
     .auditoria_abajo img{
         display: flex;
-        width: 25rem;
+        width: 100%;
         height: 20rem;
         object-fit: cover;
     }
@@ -1058,8 +1061,8 @@ footer a:hover{
 
     .contenedor_form{
         position: absolute;
-        top: -30vw;
-        right: 10vw;
+        top: -48%;
+        right: 5vw;
         width: 45%;
         max-width: 511px;
         padding: 4% 2% 2% 2%;
