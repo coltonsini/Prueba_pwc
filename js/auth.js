@@ -3,7 +3,7 @@ function validateForm() {
   var password = document.getElementById("password").value;
   if (username === "admin" && password === "password") {
     alert("Login Successful");
-    window.location.replace("/Landing.html");    
+    window.location.replace("/Prueba_pwc/Landing.html");    
     return false;
   } else {
     alert("Login Failed: Incorrect username or password");    
