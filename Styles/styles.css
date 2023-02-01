@@ -63,6 +63,15 @@ ul.show{
 }
 
 
+.signin{
+    display: none;
+}
+
+.Register{
+    display: none;
+}
+
+
 
 /* Fin Sección Nav */
 
@@ -454,6 +463,7 @@ footer a:hover{
     }
 
     .signin{
+        display: flex;
         width: 45%;
         padding: .9rem 0rem .9rem;
         color: white;
@@ -463,6 +473,7 @@ footer a:hover{
     }
 
     .Register{
+        display: flex;
         background-color: #D04A02;
         width: 45%;
         padding: .9rem 0rem .9rem;
