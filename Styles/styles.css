@@ -318,9 +318,69 @@ ul.show{
 /* Estilos Sección Footer */
 
 footer{
-    background-color: #464646;
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #535353;
 }
 
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.Links_footer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Links_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.Links_footer a:hover{
+    text-decoration: underline;
+}
+
+.Links_footer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Links_footer2 a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.footer_inferior{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+
+.footer_inferior p{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.Links_footer2 a:hover{
+    text-decoration: underline;
+}
 
 /* Fin Sección Footer */
 
@@ -551,6 +611,13 @@ footer{
     }
 
     /* Fin Sección Comunidad */
+
+    .Links_footer2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
